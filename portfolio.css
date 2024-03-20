@@ -1,0 +1,21 @@
+/* CSS */
+#practiceDropdown {
+    display: none; /* Initially hiding the dropdown */
+    background-color: #343a40; /* Dark background */
+  }
+  
+  #practiceDropdown.show {
+    display: block; /* Show dropdown when 'show' class is applied */
+  }
+  .carousel-inner {
+    width: 100rem; /* You can adjust the width to your desired value */
+    /* Add any additional styling you need */
+  }  
+  .carousel {
+    margin-bottom: 4rem;
+}
+.fl_1{
+    display: flex;
+    justify-content: center;
+}
+/* Custom CSS for dark mode */
