@@ -1,0 +1,161 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+.portfolio-container{
+  min-height: 110vh;  
+  width:100%;
+  display:flex;
+  
+}
+.portfolio-container > span{
+    font-size: 1rem;
+    flex:2;
+    float:left;
+    color:blue;
+    display:flex;
+    
+}
+
+.navlist{
+    display:flex;
+    list-style:none;
+    gap:3.5rem;
+    height:15vh; 
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    position:fixed;
+}
+.navlist li > a{
+    text-decoration: none;
+    text-transform:uppercase ;
+    font-size: 1rem;
+    color:whitesmoke;
+}
+.left-container{
+background-color:#262525;
+width:70%;
+
+
+}
+.right-container{
+background:linear-gradient(-45deg,#5DB9EE,#262525 70%);
+width:30%;
+padding-left:3rem;
+
+
+}
+.left-container,.right-container{
+    height:100vh;
+    display:flex; 
+    align-items: center;
+
+}
+.icons .fa-brands{
+   color:#bbb; 
+   font-size: 1.7rem;
+}
+.icons{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin:2rem;
+    
+}
+.content{
+   margin-left: 4rem; 
+
+}
+.content .intro{
+    font-size: 1.5rem;
+    color:#bbb
+}
+.content .intro span{
+    color:#5DB9EE;
+    box-shadow: 0 0 25px rgb(31, 31, 163);
+    }
+.content.intro span:hover{
+    transform:scale(1.1);
+    }
+.content summary{
+    font-size: 4rem;
+    color:#5DB9EE;
+}
+.content p{
+color:black;
+}
+.detail{
+    font-size: 1.1rem;
+    color: rgb(102, 102, 128);
+   max-width:38rem; 
+   margin:1.1rem 0 3rem 0;
+   line-height: 1.8rem;
+}
+.btn-container button{
+border:.1rem solid #5DB9EE;
+font-size: 1.1;
+padding:.8rem 1.5rem;
+border-radius: .5rem;
+cursor:pointer;
+transition: .5sec;
+}
+button:nth-child(1)
+{
+   background-color: #5DB9EE; 
+   color:#262525;
+}
+button:nth-child(1){
+    background-color: transparent;
+    color: #5DB9EE;
+    margin-left:2rem;
+}
+button:nth-child(1):hover
+{
+background:transparent;
+color:#5DB9EE;
+}
+button:nth-child(2):hover
+{
+background:#5DB9EE;;
+color:#262525;
+}
+.icons .fa-brands:hover{
+    cursor:pointer;
+    background:linear-gradient(#fff,#3877FF) ;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+
+}
+.design .circle{
+aspect-ratio: 1;
+position: absolute;
+border-radius: 90%;
+top:50%;
+left:75%;
+transform: translate(-50%,-50%);
+
+}
+.circle:nth-child(1){
+    background-color: linear-gradient( 90deg,transparent 50%,black 50% );
+    width:38rem;
+}
+.circle:nth-child(2){
+    background-image:url("seema photo.jpeg");
+    background-size:100% ;
+    background-repeat: no-repeat;
+    width:20rem;
+    border:.1rem solid whitesmoke;
+    box-shadow: 0 0 2rem #fff,inset 0 0 2rem white,0 0 3rem blueviolet,0 0 3rem blueviolet,0 0 4rem blueviolet,inset 0 0 4rem blueviolet;
+}
+
+
+
+
+
+
